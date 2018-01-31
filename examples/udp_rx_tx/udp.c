@@ -236,7 +236,7 @@ void print_rss(msg_t *msg)
          * changes to help you finish the lab faster 
         */
         
-        printf("RSS: %f dB/mW \n", hdr->rssi - CC2538_RSSI_OFFSET);
+        printf("RSS: %d dB/mW \n", hdr->rssi - CC2538_RSSI_OFFSET);
 
         /* Tell GNRC you are done with this packet so it can release the memory */
         gnrc_pktbuf_release(pkt);
