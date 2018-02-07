@@ -29,7 +29,7 @@
  * resolutions. Since the CC2538 SoC has an internal ADC, you can find the
  * supported resolutions in "$(RIOT_BASE)/cpu/cc2538/include/periph_cpu.h".
  */
-#define RESOLUTION      ADC_RES_12BIT       
+#define RESOLUTION      ADC_RES_7BIT       
 
 #define DELAY           (100LU * US_PER_MS) /* 100 ms, US_PER_MS defined in timex.h*/
 
